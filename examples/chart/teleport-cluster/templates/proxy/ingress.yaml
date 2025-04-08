@@ -57,7 +57,7 @@ spec:
           service:
             name: {{ $.Release.Name }}
             port:
-              number: 443
+              number: {{ $proxy.proxyPort }}
     {{- end }}
   {{- end }}
 {{- end }}

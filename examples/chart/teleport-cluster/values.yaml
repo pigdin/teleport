@@ -204,6 +204,9 @@ authentication:
 # Possible values are 'separate' and 'multiplex'
 proxyListenerMode: "separate"
 
+# Override Proxy Port
+proxyPort: 443
+
 # Optional setting for configuring session recording.
 # See `session_recording` under https://goteleport.com/docs/reference/config/#auth-service
 sessionRecording: ""

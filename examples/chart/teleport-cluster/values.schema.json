@@ -226,6 +226,11 @@
             },
             "default": []
         },
+        "proxyPort": {
+            "$id": "#/properties/proxyPort",
+            "type": "integer",
+            "default": 443
+        },
         "kubePublicAddr": {
             "$id": "#/properties/kubePublicAddr",
             "type": "array",
